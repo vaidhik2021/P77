@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>
+        How to declare the arrays ?
+
+    <h1 id="declaration_of_arrays"> </h1>
+    </p>
+
+    <script>
+        var fruits = ["Apple", "orange", "mango"];
+        console.log(fruits);
+        document.getElementById("declaration_of_arrays").innerHTML = fruits;
+        console.log(fruits[0]);
+        console.log(fruits[1]);
+        console.log(fruits[2]);
+        console.log(fruits.length);
+        var length_of_array = fruits.length;
+        for(var i =0; i<length_of_array; i++) {
+        console.log(fruits[i]);
+        }
+        fruits.push("banana");
+        fruits.push("grapes");
+        console.log(fruits);
+    </script>
+</body>
+
+</html>
